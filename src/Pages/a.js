@@ -3,7 +3,7 @@ import "./Community.css";
 import { Link } from "react-router-dom";
 import PopularRank from "./PopularRank";
 
-function Community() {
+function Cbb() {
   return (
     <div className="main">
       <div className="menu">
@@ -29,4 +29,4 @@ function Community() {
     </div>
   );
 }
-export default Community;
+export default Cbb;
