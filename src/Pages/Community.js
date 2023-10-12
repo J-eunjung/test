@@ -15,7 +15,7 @@ function Community() {
         </div>
         <div className="groupbtn">
           <button>
-            <Link to="/">그룹생성</Link>
+            <Link to="/">그룹생성1111111</Link>
           </button>
         </div>
       </div>
