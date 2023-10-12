@@ -1,5 +1,5 @@
 import React from "react";
-import "./Community.css";
+import "./styles/Community.css";
 import { Link } from "react-router-dom";
 import PopularRank from "./PopularRank";
 
@@ -15,13 +15,13 @@ function Community() {
         </div>
         <div className="groupbtn">
           <button>
-            <Link to="/Groupcreate">그룹생성</Link>
+            <Link to="/">그룹생성</Link>
           </button>
         </div>
       </div>
       <div className="rank">
         <div className="title">
-          <p>인기 상승 그룹1</p>
+          <p>인기 상승 그룹</p>
         </div>
         <PopularRank />
       </div>
