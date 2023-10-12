@@ -1,0 +1,31 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/************* SideMenu 왼쪽 부분 *************/
+
+
+
+/************* PageContent 끝 *************/
+@media screen and (max-width: 1000px) {
+  /* 화면 너비가 768px 이하일 때 적용할 스타일 */
+  .SideMenu{
+    display: var(--Navigationr);
+  }
+}
