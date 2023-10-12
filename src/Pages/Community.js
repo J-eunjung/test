@@ -21,7 +21,7 @@ function Community() {
       </div>
       <div className="rank">
         <div className="title">
-          <p>인기 상승 그룹</p>
+          <p>인기 상승 그룹111111111</p>
         </div>
         <PopularRank />
       </div>
